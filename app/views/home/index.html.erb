@@ -1,0 +1,10 @@
+
+<%= form_with url: scrape_path do |f| %>
+   <%= f.url_field :url %>
+   <%= f.submit 'Scapre it!' %>
+<% end %>
+
+<%= link_to "See locations", locations_path %>
+<%= link_to "See restaurants", restaurants_path %>
+<%= link_to "See products", products_path %>
+<%= link_to "See category", categories_path %>
